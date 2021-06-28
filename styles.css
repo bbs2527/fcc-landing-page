@@ -5,14 +5,48 @@
 
 #header{
     width: 90%;
+    margin: auto;
+    position: fixed;
 }
 
+#nav-bar{
+    width: max-content;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
 #header-img{
-    width: 25%;
+    width: 7%;
     height: auto;
+}
+
+ul{
+    width: 50%;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin-left: -10%;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 0.5em;
+    text-decoration: none;
+    justify-content: space-around;
 }
 
 /* Form Section */
 
 
 /* Footer Section */
+
+
+/* Media Queries */
