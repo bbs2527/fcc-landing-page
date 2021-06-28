@@ -3,44 +3,39 @@
 
 /* Header */
 
-#header{
-    width: 90%;
-    margin: auto;
-    position: fixed;
-}
-
 #nav-bar{
-    width: max-content;
+    border: 2px solid black;
+    position: fixed;
     display: flex;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    margin-right: 5%;
 }
 
+#nav-bar > a{
+  overflow: hidden;
+  padding: 0.5em;
+  align-items: center;
+  justify-content: right;
+  margin-top: 2%;
+}
 
-#header-img{
-    width: 7%;
+#nav-bar a{
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  align-items: center;
+}
+header img{
+    width: 25%;
     height: auto;
-}
-
-ul{
-    width: 50%;
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    margin-left: -10%;
-}
-
-li{
-    float: right;
-}
-
-li a{
-    display: block;
-    text-align: center;
-    padding: 0.5em;
-    text-decoration: none;
-    justify-content: space-around;
+    margin-left: -1%;
+    margin-top: -5%;
+    margin-bottom: -12%;
 }
 
 /* Form Section */
