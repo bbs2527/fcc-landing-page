@@ -3,6 +3,22 @@
 
 /* Header */
 
+.logo{
+    width: 30vh;
+    margin: -4%;
+}
+
+#header-img{
+    width: 100%;
+    height: auto;
+}
+
+#header{
+    width: 100%;
+    margin: auto;
+}
+
+
 
 /* Form Section */
 
