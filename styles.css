@@ -1,26 +1,55 @@
 /* Body */
 
+html{
+  font-family: font-family: 'Roboto Mono', monospace;
+  font-family: 'Ubuntu', sans-serif;
+}
 
 /* Header */
 
-.logo{
-    width: 30vh;
-    margin: -4%;
-}
-
-#header-img{
-    width: 100%;
-    height: auto;
-}
-
 #header{
-    width: 100%;
-    margin: auto;
+  font-family: 'Roboto Mono', monospace;
+  position:fixed;
+  width: 98%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
+.logo{
+  width: 30vh;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(68, 66, 66);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #2a8f6a;
+}
 
 
 /* Form Section */
+
 
 
 /* Main Section - Video */
@@ -32,4 +61,5 @@
 /* Footer Section */
 
 
-/* Media Queries */
+/* Media Queries */1
+67+988
