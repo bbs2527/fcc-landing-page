@@ -63,6 +63,14 @@ h1, h3{
   text-align: center;
 }
 
+h1{
+  font-family: 'Roboto Mono', monospace;
+}
+
+h3{
+  font-family: 'Ubuntu', monospace;
+  font-weight: 400;
+}
 
 /* Main Section - Item Selection */
 
