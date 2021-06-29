@@ -12,7 +12,9 @@ html{
   position:fixed;
   width: 98%;
   left: 50%;
+  top: 0;
   transform: translateX(-50%);
+  z-index: 1000;
 }
 
 .logo{
@@ -52,7 +54,14 @@ li a:hover:not(.active) {
 
 
 
-/* Main Section - Video */
+/* Main Section & Video */
+main{
+  margin-top: 12%;
+}
+
+h1, h3{
+  text-align: center;
+}
 
 
 /* Main Section - Item Selection */
