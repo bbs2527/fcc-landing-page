@@ -69,13 +69,24 @@ input{
 }
 
 input[type="email"]{
-  padding: 5px;
+  padding: 0.5rem;
   border: 2px solid gray;
+  font-family: 'Ubuntu';
 }
 
 input[type="submit"]{
-  padding: 5px;
-  width: fit-content;
+  padding: 0.5rem;
+  width: 10rem;
+  font-family: 'Ubuntu';
+  color: whitesmoke;
+  background-color: teal;
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 /* Main Section & Video */
