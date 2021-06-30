@@ -94,7 +94,7 @@ main{
   margin-top: 15%;
 }
 
-h1, h3{
+h1, h2{
   text-align: center;
 }
 
@@ -102,8 +102,8 @@ h1{
   font-family: 'Roboto Mono', monospace;
 }
 
-h3{
-  font-family: 'Ubuntu', monospace;
+h2{
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
 }
 
@@ -113,6 +113,40 @@ iframe{
 }
 
 /* Main Section - Item Selection */
+
+section{
+  display: flex;
+  margin: 5% auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item{
+  border: 2px solid rgb(68, 66, 66);
+  padding: 2%;
+  margin: 2%;
+  text-align: center;
+}
+
+.item img{
+  width: 100%;
+  margin: auto;
+}
+
+.name, h3{
+  text-align: center;
+}
+
+.name{
+  text-decoration: underline;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+}
+
+.item > h3{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+}
 
 
 /* Footer Section */
