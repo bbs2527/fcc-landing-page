@@ -42,11 +42,11 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: rgb(43, 163, 172);
 }
 
 .active {
-  background-color: #2a8f6a;
+  background-color: #0a6e6e;
 }
 
 
@@ -70,6 +70,11 @@ h1{
 h3{
   font-family: 'Ubuntu', monospace;
   font-weight: 400;
+}
+
+iframe{
+  display: block;
+  margin: 0 auto;
 }
 
 /* Main Section - Item Selection */
