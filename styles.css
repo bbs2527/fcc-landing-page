@@ -3,7 +3,7 @@
 html{
   font-family: font-family: 'Roboto Mono', monospace;
   font-family: 'Ubuntu', sans-serif;
-  max-width: 850px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -12,11 +12,12 @@ html{
 #header{
   font-family: 'Roboto Mono', monospace;
   position:fixed;
-  width: 80%;
+  width: 100%;
   left: 50%;
   top: 0;
   transform: translateX(-50%);
   z-index: 1000;
+  background-color: white;
 }
 
 .logo{
@@ -30,9 +31,9 @@ ul {
   padding: 10px;
   overflow: hidden;
   background-color: rgb(68, 66, 66);
-  width: 50%;
+  width: 80%;
   display:flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -74,7 +75,7 @@ input[type="email"]{
   font-family: 'Ubuntu';
 }
 
-input[type="submit"]{
+input[type="submit"], button{
   padding: 0.5rem;
   width: 10rem;
   font-family: 'Ubuntu';
@@ -91,7 +92,9 @@ input[type="submit"]{
 
 /* Main Section & Video */
 main{
-  margin-top: 15%;
+  margin-top: 12%;
+  margin-left: 4%;
+  max-width: 90%;
 }
 
 h1, h2{
@@ -118,6 +121,7 @@ section{
   display: flex;
   margin: 5% auto;
   justify-content: center;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
@@ -150,7 +154,16 @@ section{
 
 
 /* Footer Section */
-
+footer{
+  width: 85%;
+  text-align: center;
+  font-family: 'Ubunut',sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: rgb(68, 66, 66);
+  color: whitesmoke;
 
 /* Media Queries */1
 67+988
