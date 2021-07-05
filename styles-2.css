@@ -8,11 +8,15 @@
 #nav-bar{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 ul{
     list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: turquoise;
+    width: 90%;
     
 }
 
@@ -34,7 +38,7 @@ main{
     text-align: center;
 }
 
-@media (max-width: 700px){
+@media (max-width: 500px){
     #header-img{
         display: none;
     }
@@ -43,4 +47,23 @@ main{
         justify-content: center;
     }
 
-}
+    ul{
+        flex-flow: row wrap;
+        width: 80%;
+    }
+
+    main{
+        padding-top: 25%;
+    }
+    
+    body{
+        margin: auto;
+    }
+
+    /* #description{
+        max-width: max-content;
+        margin: auto;
+
+        not rendering properly for it to center content
+    }*/
+} 
