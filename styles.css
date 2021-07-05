@@ -9,7 +9,7 @@ html{
 
 /* Header */
 
-#header{
+#nav-bar{
   font-family: 'Roboto Mono', monospace;
   position:fixed;
   width: 100%;
@@ -18,11 +18,12 @@ html{
   transform: translateX(-50%);
   z-index: 1000;
   background-color: white;
+  display: contents;
 }
 
 .logo{
   width: 30vh;
-  margin: auto;
+  margin: 0px auto;
 }
 
 ul {
@@ -122,7 +123,6 @@ section{
   margin: 5% auto;
   justify-content: center;
   flex-direction: row;
-  flex-wrap: wrap;
 }
 
 .item{
@@ -165,5 +165,5 @@ footer{
   background-color: rgb(68, 66, 66);
   color: whitesmoke;
 
-/* Media Queries */1
-67+988
+/* Media Queries */
+
