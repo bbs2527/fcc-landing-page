@@ -1,0 +1,43 @@
+
+#header-img{
+    position: relative;
+    float: left;
+}
+
+#nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+li{
+    display: inline;
+    padding: 1rem;
+}
+
+
+header{
+    margin: 0 auto;
+    width: 90%;
+    position: fixed;
+}
+
+main{
+    padding-top: 15%;
+    text-align: center;
+}
+
+@media (max-width: 600px){
+    #header-img{
+        display: none;
+    }
+
+    #nav-bar{
+        justify-content: center;
+    }
+}
