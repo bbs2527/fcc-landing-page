@@ -2,6 +2,7 @@
 #header-img{
     position: relative;
     float: left;
+    max-width: 25%;
 }
 
 #nav-bar{
@@ -21,18 +22,19 @@ li{
 }
 
 
-header{
+#header{
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
     position: fixed;
+    background-color: white;
 }
 
 main{
-    padding-top: 15%;
+    padding-top: 10%;
     text-align: center;
 }
 
-@media (max-width: 600px){
+@media (max-width: 700px){
     #header-img{
         display: none;
     }
@@ -40,4 +42,5 @@ main{
     #nav-bar{
         justify-content: center;
     }
+
 }
