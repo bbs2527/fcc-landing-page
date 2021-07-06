@@ -110,6 +110,16 @@ input[type="email"]{
     margin: 0 auto;
 }
 
+
+#fish-selection{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
 /* Footer */
 
 
@@ -136,6 +146,11 @@ input[type="email"]{
 
     #video{
         max-width: 100%;
+    }
+
+    #fish-selection{
+        flex-flow: column nowrap;
+        justify-content: center;
     }
 }
 
