@@ -6,10 +6,26 @@ html{
 
 
 /* Header */
+header{
+    border: 2px solid red;
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 10em;
+    width: 90%;
+}
 
+ul{
+    display: flex;
+}
 
 
 /* Main Section*/
+main{
+    padding-top: 22%;
+}
 
 
 /* Footer */
