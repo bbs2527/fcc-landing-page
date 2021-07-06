@@ -16,6 +16,7 @@ header{
     min-height: 3em;
     width: 98%;
     background-color: white;
+    font-family: 'Roboto Mono', monospace;
 }
 
 ul{
@@ -54,6 +55,13 @@ main{
     padding-top: 25%;
 }
 
+#description{
+    text-align: center;
+}
+
+#description h1{
+    text-transform: uppercase;
+}
 
 /* Footer */
 
@@ -73,5 +81,11 @@ main{
 
     main{
         padding-top: 3rem;
+    }
+}
+
+@media (min-width: 1020px){
+    main{
+        padding-top: 16%;
     }
 }
