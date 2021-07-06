@@ -100,6 +100,16 @@ input[type="email"]{
   border: 3px solid gray;
 }
 
+
+#video-section{
+    margin: 2% auto;
+}
+
+#video{
+    display: block;
+    margin: 0 auto;
+}
+
 /* Footer */
 
 
@@ -118,6 +128,14 @@ input[type="email"]{
 
     main{
         padding-top: 3rem;
+    }
+
+    #video-section{
+        max-width: 100%;
+    }
+
+    #video{
+        max-width: 100%;
     }
 }
 
