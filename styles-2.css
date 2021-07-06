@@ -18,13 +18,25 @@ header{
 }
 
 ul{
-    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
 }
 
+li{
+    display: inline-block;
+}
+
+#header-img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
 /* Main Section*/
 main{
-    padding-top: 22%;
+    padding-top: 25%;
 }
 
 
