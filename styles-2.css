@@ -7,30 +7,45 @@ html{
 
 /* Header */
 header{
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     position: fixed;
     right: 0;
     left: 0;
     margin-right: auto;
     margin-left: auto;
-    min-height: 10em;
-    width: 90%;
+    min-height: 3em;
+    width: 98%;
+    background-color: white;
 }
 
 ul{
     margin: 0;
-    padding: 0;
+    padding: 0.75rem;
     list-style: none;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: #484848;
 }
 
 li{
-    display: inline-block;
+    display: inline;
+    color: whitesmoke;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: gray;
 }
 
 #header-img{
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2%;
     display: block;
 }
 
@@ -47,4 +62,16 @@ main{
 
 
 /* Media Queries */
-@media (max-width: 500px){}
+@media (max-width: 600px){
+    ul{
+        flex-flow: row wrap;
+    }
+
+    #header-img{
+        display: none;
+    }
+
+    main{
+        padding-top: 3rem;
+    }
+}
