@@ -63,6 +63,43 @@ main{
     text-transform: uppercase;
 }
 
+#form-section{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+input[type="submit"]{
+    width: 8rem;
+    transition-duration: 1s;
+    border: 2px solid black;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    padding: 5px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+input[type="submit"]:hover{
+    background-color: goldenrod;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input[type="email"]{
+  max-width: 300px;
+  width: 100%;
+  padding: 6px;
+  margin: 2% auto;
+  border: 3px solid gray;
+}
+
 /* Footer */
 
 
